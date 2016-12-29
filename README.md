@@ -9,14 +9,8 @@ Require this package in your composer.json and run composer update.
     
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "dolf/sso",
-                "version":"dev",
-                "dist": {
-                    "url": "https://github.com/Dolf-L/packages/tree/master/dolf/sso",
-                }
-            }
+            "type": "git",
+            "url": "https://github.com/Dolf-L/SSOBroker"
         }
     ]
 ```
