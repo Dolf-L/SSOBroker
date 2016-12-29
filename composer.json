@@ -1,0 +1,25 @@
+{
+    "name": "dolf/sso",
+    "description": "SSO package for two sites",
+    "authors": [
+        {
+            "name": "dolf",
+            "email": "taranchuka@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "database",
+            "packages/dolf/sso/src/migrations"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Dolf\\SSO\\": "/src"
+        }
+    }
+}
